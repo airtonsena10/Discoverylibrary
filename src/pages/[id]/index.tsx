@@ -65,7 +65,7 @@ export default function BookDetails() {
                     </p>
                   )}
                 </article>
-                <article className="rounded-3xl bg-slate-600 border-2 border-gray-800 border-solid py-9 px-6  flex flex-col gap-8">
+                <article className="rounded-3xl bg-slate-600 border-2 border-gray-600 border-solid py-9 px-6  flex flex-col gap-8">
                   <h1 className={`${inter.className} text-3xl text-gray-100`}>
                     {dataBook?.data?.volumeInfo?.title}
                   </h1>
@@ -82,7 +82,7 @@ export default function BookDetails() {
                     </p>
                   </CardText>
 
-                  <section className="max-w-5xl m-auto flex sm:px-4 pb-12 px-8 flex-wrap lg:flex-nowrap justify-center">
+                  <section className="max-w-5xl  flex sm:px-4  flex-wrap lg:flex-nowrap justify-center">
                     <CardText>
                       <div className="flex flex-col">
                         <h3 className="text-xl font-bold">Descrição</h3>
