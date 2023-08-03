@@ -36,7 +36,7 @@ export default function BookDetails() {
 
   return (
     <main
-      className={` bg-slate-900 ${inter.className} flex flex-col min-h-screen`}
+      className={` bg-[url('https://images.unsplash.com/photo-1528458909336-e7a0adfed0a5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1496&q=80')] ${inter.className} flex flex-col min-h-screen`}
     >
       <Header />
       {loading ? (
