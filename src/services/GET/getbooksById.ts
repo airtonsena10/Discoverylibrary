@@ -1,3 +1,4 @@
+/* eslint-disable no-use-before-define */
 import { API } from '../_api'
 
 export interface Book {
